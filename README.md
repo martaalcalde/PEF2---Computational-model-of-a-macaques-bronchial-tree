@@ -10,3 +10,4 @@ Bronchis.m: Fills the lungs iteratively using Vegué and Català method. Needs B
 
 FiguraBT.m: Generates figures 6 and 7 of the Article using bronchis_model1.mat or bronchis_model2.mat.
 
+setments.mat: 3D matrix containing the information of CT images. It is filled with integers from 0 to 20. 0 indicates that the point is outside the lung. Integers from 1 to 20 indicate the segment where the point is found.
